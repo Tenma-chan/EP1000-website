@@ -519,7 +519,7 @@ tr:nth-child(even){
 
 .HTMLcontent{
     width: 100vw;
-    height: 140vh;
+    height: 150vh;
     background-image: url(images/HTMLbackgroundlong.png);
     background-repeat: no-repeat;
     background-size: cover; 
@@ -534,7 +534,7 @@ tr:nth-child(even){
 
 .CSScontent{
     width: 100vw;
-    height: 140vh;
+    height: 150vh;
     background-image: url(images/CSSbackgroundlong.png);
     background-repeat: no-repeat;
     background-size: cover; 
