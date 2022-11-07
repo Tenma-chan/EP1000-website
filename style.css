@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow-x: hidden; /*hides the dumb border thing lmao */
+}
+
+/* ----------------main--------------- */
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    background-image: url('images/mainbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.homeicon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+/*.navbar{
+    width: 100%;
+    float: left;
+    height: 70;
+    text-align: center;
+} */
+
+/* ----------------navbar block--------------- */
+
+#navbar{
+    overflow: hidden;
+    background-color: none; /* background colou was disabled for navbar */
+    z-index: 5;
+    padding-left: 35px;
+}
+  
+
+#navbar a{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 22px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px #ffffff solid; /* edit the boder here */
+    border-radius: 25px;
+}
+  
+#navbar a:hover{
+    background-color: #02b4a2;
+    color: #ffffff;
+}
+  
+#navbar a.active{
+    background-color: #04AA6D;
+    color: #ffffff;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content{
+    padding-top: 60px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    position: sticky;
+}
+
+/* ----------------navbar icons--------------- */
+
+.homeimg{
+    width: 20px;
+    transform: translateY(8px);
+    transform: translateX(-4px);
+    filter: brightness(0) invert(1);
+}
+
+.aboutmeimg{
+    width: 20px;
+    transform: translateY(8px);
+    transform: translateX(-4px);
+    filter: brightness(0) invert(1);
+}
+
+.cadimg{
+    width: 20px;
+    transform: translateY(9px);
+    transform: translateX(-5px);
+    filter: brightness(0) invert(1);
+}
+
+.threedprintimg{
+    width: 20px;
+    transform: translateY(8px);
+    transform: translateX(-4px);
+    filter: brightness(0) invert(1);
+}
+
+.laserimg{
+    width: 20px;
+    transform: translateY(8px);
+    transform: translateX(-5px);
+    filter: brightness(0) invert(1);
+}
+
+.webdevimg{
+    width: 20px;
+    transform: translateY(8px);
+    transform: translateX(-6px);
+    filter: brightness(0) invert(1);
+}
+
+.finalimg{
+    width: 20px;
+    transform: translateY(8px);
+    transform: translateX(-4px);
+    filter: brightness(0) invert(1);
+}
+
+/* ----------------about me section--------------- */
+
+.homecontent{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    z-index: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid white;
+}
+  
+td, th{
+    text-align: center;
+    padding: 8px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: #02b4a2;
+}
+  
+tr:nth-child(even){
+    background-color: #000000;
+}
+
+.info{
+    background-color: rgb(20, 20, 20);
+    height: auto;
+}
+
+.infotable{
+    padding-top: 82px;
+    color: white;
+    font-size: 55px;
+}
+
+.infoimg{
+    width: 220px;
+    height: auto;
+}
+
+.infocontent{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+/* ----------------cad section--------------- */
+
+.cad{
+    background-image: url('images/cadbackground2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 110vh;
+} 
+
+.cadtitle{
+    text-align: center;
+    padding-top: 79px;
+    color: white;
+}
+
+/* ----------------cad nav subsection--------------- */
+
+.imga{
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+    width: 350px;
+    height: 550px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;                  /* i know this is horrible */
+    color: white;                      /* but honestly, idk man */
+    cursor: pointer;                       /* im not fixing this */
+    position: relative;                    /* for the fifth time already */
+    overflow: hidden;
+    background-color: none;
+    z-index: 1;
+    float: left;
+    justify-content: center;
+    transform: translateX(51%);
+}
+
+.imgb{
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+    width: 350px;
+    height: 550px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: none;
+    z-index: 1;
+    float: left;
+    justify-content: center;
+    transform: translateX(51%);
+}
+
+.imgc{
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+    width: 350px;
+    height: 550px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: none;
+    z-index: 1;
+    float: left;
+    justify-content: center;
+    transform: translateX(51%);
+}
+
+.cadprojecta{
+    Width: auto;
+    height: 110vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: 0.5s;
+}
+
+.cadprojectb{
+    Width: auto;
+    height: 110vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.cadprojectc{
+    Width: auto;
+    height: 110vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+/* ----------------3D printing section--------------- */
+
+.threedprintingheader{
+    z-index: -1;
+    background-image: url('images/3dprintheader.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 120vh;
+}
+
+.threedprintingheadertitle{
+    text-align: center;
+    color: #FFFFFF;
+    transform: translateY(210px);
+}
+
+.threedprint{
+    height: 160vh;
+    padding-top: 79px;
+    background-size: auto;
+    /*background-image:
+      linear-gradient(to right, grey 1px, transparent 1px),
+      linear-gradient(to bottom, grey 1px, transparent 1px);*/
+    background-color: rgb(255, 210, 151);
+}
+
+/* ----------------3D printing chart graphic--------------- */
+
+.threedflowchart{
+    height: 160vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.researchimg{
+    width: 220px;
+    transform: translateX(300px)  translateY(80px);
+}
+
+.researchtitle{
+    font-size: 36px;
+    transform: translateX(318px)  translateY(80px);
+}
+
+.researchsubtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(-335px) translateY(-45px);
+}
+
+.ideationimg{
+    width: 220px;
+    transform: translateX(735px) translateY(70px);
+}
+
+.ideationtitle{
+    font-size: 36px;
+    transform: translateX(1000px) translateY(45px);
+}
+
+.ideationsubtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(335px) translateY(-95px);
+}
+
+.designimg{
+    width: 220px;
+    transform: translateX(-165px) translateY(665px);
+}
+
+.designtitle{
+    font-size: 36px;
+    transform: translateX(325px) translateY(595px);
+}
+
+.designsubtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(-340px) translateY(438px);
+}
+
+.createimg{
+    width: 220px;
+    transform: translateX(300px) translateY(670px);
+}
+
+.createtitle{
+    font-size: 36px;
+    transform: translateX(1023px) translateY(555px);
+}
+
+.createsubtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(345px) translateY(410px);
+}
+
+/* ----------------laser cutting section--------------- */
+
+.lasercut{
+    Width: auto;
+    height: 110vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+/* ----------------Web development section--------------- */
+
+.webdev{
+    Width: 100%;
+    height: 110vh;
+    padding-top: 79px;
+    color: white;
+    background-color:#ccb7b7; 
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.webdevheader{  
+    padding-top: 34px;
+} 
+
+.HTMLbackground{
+    z-index: -1;
+    width: auto;
+    float: left;
+    transform: translateY(3px);
+    opacity: 0%;
+}
+
+.CSSbackground{
+    z-index: -1;
+    width: auto;
+    float: right;
+    transform: translateX(220px) translateY(-1846px);
+    opacity: 0%;
+}
+
+.webdevheadertitle{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 140px;
+    z-index: 2;
+}
+
+.webdevbuttonHTML{
+    width: 200px;
+    height: 12px;
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    background-color: #000000;
+    transform: translateX(55px) translateY(240px);
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 22px;
+    text-decoration: none;
+    font-size: 35px;
+    border: 2px #ffffff solid; /* edit the border here */
+    border-radius: 25px;
+    cursor: pointer;
+    padding-bottom: 46px;
+    padding-top: 8px;
+    transition: 0.5s;
+}
+
+.webdevbuttonCSS{
+    width: 200px;
+    height: 12px;
+    z-index: 2;
+    position: absolute;
+    left: 47%;
+    background-color: #000000;
+    transform: translateX(85px) translateY(240px);
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    border: 2px #ffffff solid; /* edit the border here */
+    border-radius: 25px;
+    cursor: pointer;
+    padding-bottom: 46px;
+    padding-top: 8px;
+}
+
+/*  .HTMLbackground:hover{
+    background-image: url('images/HTMLbackgroundlong.png');
+    opacity: 100%;
+    transition: 1s;
+    
+} */
+
+/* ----------------final project section--------------- */
+
+.finalproject{
+    Width: auto;
+    height: 110vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+/* ----------------auxillary section--------------- */
+
+.morestuff{
+    Width: auto;
+    height: 110vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+/* ----------------prototype code (warning: unstable and may cause some pain to the brain)--------------- */
+
+/*
+
+.cadbuttona{
+    float: left;
+    margin-left: 125px;
+    width: 325px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #02b4a2;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: black;
+    display: block;
+}
+
+.cadbuttonb{
+    float: left;
+    margin-left: 125px; 
+    width: 325px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #02b4a2;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: black; 
+}
+
+.cadbuttonc{
+    float: left;
+    padding-left: 25px; 
+    width: 325px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #02b4a2;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+*/
+
+.anchortest{
+    padding-top: 2300px;
+    float: bottom;
+    text-align: middle;
+    font-size: 5px;
+}
+
+
+/* ----------------Quality of life--------------- */
+
+html{
+    scroll-behavior: smooth;
+}
