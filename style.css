@@ -292,21 +292,35 @@ tr:nth-child(even){
     transform: translateX(51%);
 }
 
-.cadprojecta{
+.cadprojecta{ /* the first practice (assignment 1) */
     Width: auto;
-    height: 110vh;
+    height: 160vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
     transition: 0.5s;
+    overflow-x: hidden; 
+}
+
+.cadprojectatitle{
+    padding-top: 48px;
+    padding-left: 48px;
+    font-weight: bold;
 }
 
 .cadprojectb{
     Width: auto;
-    height: 110vh;
+    height: 800vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
+    overflow-x: hidden; 
+}
+
+.cadprojectbtitle{
+    padding-top: 48px;
+    padding-left: 48px;
+    font-weight: bold;
 }
 
 .cadprojectc{
@@ -315,7 +329,184 @@ tr:nth-child(even){
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
+    overflow-x: hidden; 
 }
+
+/*----------------CAD PROJECT A---------------*/
+
+.Assignment1cadtitle{
+    float: left;
+    padding-left: 240px;
+    padding-top: 260px;
+    font-weight: bold;
+    transform: translateX(48px);
+}
+
+.Assignment1cadtext{
+    float: left;
+    padding-left: 240px;
+    padding-top: 10px;
+    transform: translateX(48px) translateY(20px);
+    width: 600px;
+}
+
+.CADassignment1cadimg{
+    width: 420px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    transform: translateX(160px) translateY(65px);
+}
+
+
+.Assignment1modeltitle{
+    float: left;
+    padding-left: 240px;
+    padding-top: 260px;
+    font-weight: bold;
+    transform: translateX(-100px) translateY(-150px);
+}
+
+.Assignment1modeltext{
+    float: left;
+    padding-left: 240px;
+    padding-top: 10px;
+    transform: translateX(-840px) translateY(185px);
+    width: 450px;
+}
+
+.CADassignment1modelimg{
+    width: 600px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    transform: translateX(320px) translateY(365px);
+} 
+
+
+/*----------------CAD PROJECT B---------------*/
+
+.Assignment2cadtitle{
+    float: left;
+    padding-left: 240px;
+    padding-top: 255px;
+    font-weight: bold;
+    transform: translateX(48px) translateY(-180px);
+}
+
+.Assignment2cadtext{
+    float: left;
+    padding-left: 240px;
+    padding-top: 10px;
+    transform: translateX(610px) translateY(-180px);
+    width: 450px;
+    font-size: 22px;
+}
+
+.CADassignment2cadimg{
+    width: 560px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    transform: translateX(160px) translateY(65px);
+}
+
+.Assignment2modelpart1title{
+    float: left;
+    padding-left: 240px;
+    padding-top: 260px;
+    font-weight: bold;
+    transform: translateX(-80px) translateY(-390px);
+}
+
+.Assignment2modelpart1text{
+    float: left;
+    padding-left: 240px;
+    padding-top: 10px;
+    transform: translateX(-820px) translateY(-65px);
+    width: 450px;
+}
+
+.CADassignment2modelpart1img{
+    width: 550px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    transform: translateX(120px) translateY(180px);
+} 
+
+.Assignment2modelpart2title{
+    float: left;
+    padding-left: 140px;
+    padding-top: 255px;
+    font-weight: bold;
+    transform: translateX(670px) translateY(-420px);
+}
+
+.Assignment2modelpart2text{
+    float: left;
+    padding-left: 240px;
+    padding-top: 10px;
+    transform: translateX(-70px) translateY(-100px);
+    width: 450px;
+}
+
+.CADassignment2modelpart2img{
+    width: 560px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    transform: translateX(-580px) translateY(135px);
+}
+
+.Assignment2modelpart3title{
+    float: left;
+    padding-left: 240px;
+    padding-top: 260px;
+    font-weight: bold;
+    transform: translateX(-80px) translateY(-460px);
+}
+
+.Assignment2modelpart3text{
+    float: left;
+    padding-left: 240px;
+    padding-top: 10px;
+    transform: translateX(-700px) translateY(-135px);
+    width: 450px;
+}
+
+.CADassignment2modelpart3img{
+    width: 550px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    transform: translateX(160px) translateY(120px);
+} 
+
+.Assignment2modelpart4title{
+    float: left;
+    padding-left: 140px;
+    padding-top: 255px;
+    font-weight: bold;
+    transform: translateX(670px) translateY(-480px);
+}
+
+.Assignment2modelpart4text{
+    float: left;
+    padding-left: 240px;
+    padding-top: 10px;
+    transform: translateX(-80px) translateY(-170px);
+    width: 450px;
+}
+
+.CADassignment2modelpart4img{
+    width: 560px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    transform: translateX(-480px) translateY(125px);
+} 
+
 
 /* ----------------3D printing section--------------- */
 
