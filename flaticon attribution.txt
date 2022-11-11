@@ -43,3 +43,5 @@ ideation 2 png -
 design 2 png -
 <a href="https://www.flaticon.com/free-icons/sketch" title="sketch icons">Sketch icons created by Freepik - Flaticon</a>
 
+2D design png -
+<a href="https://www.flaticon.com/free-icons/design" title="design icons">Design icons created by Freepik - Flaticon</a>

@@ -38,7 +38,7 @@
     overflow: hidden;
     background-color: none; /* background colou was disabled for navbar */
     z-index: 5;
-    padding-left: 35px;
+    padding-left: 22px;
 }
   
 
@@ -47,11 +47,11 @@
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 22px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     border: 2px #ffffff solid; /* edit the boder here */
-    border-radius: 25px;
+    border-radius: 22px;
 }
   
 #navbar a:hover{
@@ -100,6 +100,13 @@ ul li{
 }
 
 .aboutmeimg{
+    width: 20px;
+    transform: translateY(8px);
+    transform: translateX(-4px);
+    filter: brightness(0) invert(1);
+}
+
+.twoddesignimg{
     width: 20px;
     transform: translateY(8px);
     transform: translateX(-4px);
@@ -205,6 +212,61 @@ tr:nth-child(even){
     padding-bottom: 55px;
 }
 
+/* ----------------2D design section--------------- */
+
+/*
+.webdevhtmlintroimg{
+    width: 240px;
+    transform: translateX() translateY();   
+}
+
+.webdevhtmlintrotitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmlintrotext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmlimg1{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmltitle1{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmltext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmlimg2{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmltitle2{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmltext2{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+*/
+
 /* ----------------cad section--------------- */
 
 .cad{
@@ -292,8 +354,9 @@ tr:nth-child(even){
     transform: translateX(51%);
 }
 
-.cadprojecta{ /* the first practice (assignment 1) */
-    Width: auto;
+
+.cadprojecta{ /* the first practice (assignment 1) */ 
+    Width: 100%;
     height: 160vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
@@ -309,12 +372,12 @@ tr:nth-child(even){
 }
 
 .cadprojectb{
-    Width: auto;
-    height: 800vh;
+    Width: 100%;
+    height: 350vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .cadprojectbtitle{
@@ -388,10 +451,10 @@ tr:nth-child(even){
 
 .Assignment2cadtitle{
     float: left;
-    padding-left: 240px;
     padding-top: 255px;
     font-weight: bold;
-    transform: translateX(48px) translateY(-180px);
+    transform: translateX(288px) translateY(-180px);
+    overflow-x: hidden;
 }
 
 .Assignment2cadtext{
@@ -462,40 +525,30 @@ tr:nth-child(even){
 .Assignment2modelpart3title{
     float: left;
     padding-left: 240px;
-    padding-top: 260px;
     font-weight: bold;
-    transform: translateX(-80px) translateY(-460px);
+    transform: translateX(-80px) translateY(-200px);
 }
 
 .Assignment2modelpart3text{
     float: left;
-    padding-left: 240px;
-    padding-top: 10px;
-    transform: translateX(-700px) translateY(-135px);
+    transform: translateX(-460px) translateY(-125px);
     width: 450px;
 }
 
 .CADassignment2modelpart3img{
     width: 550px;
     height: auto;
-    float: left;
     border-radius: 20px;
     transform: translateX(160px) translateY(120px);
 } 
 
 .Assignment2modelpart4title{
-    float: left;
-    padding-left: 140px;
-    padding-top: 255px;
     font-weight: bold;
-    transform: translateX(670px) translateY(-480px);
+    transform: translateX(-210px) translateY(280px);
 }
 
 .Assignment2modelpart4text{
-    float: left;
-    padding-left: 240px;
-    padding-top: 10px;
-    transform: translateX(-80px) translateY(-170px);
+    transform: translateX(860px) translateY(-125px);
     width: 450px;
 }
 
@@ -504,7 +557,7 @@ tr:nth-child(even){
     height: auto;
     float: left;
     border-radius: 20px;
-    transform: translateX(-480px) translateY(125px);
+    transform: translateX(160px) translateY(125px);
 } 
 
 
@@ -532,7 +585,7 @@ tr:nth-child(even){
     /*background-image:
       linear-gradient(to right, grey 1px, transparent 1px),
       linear-gradient(to bottom, grey 1px, transparent 1px);*/
-    background-color: rgb(255, 210, 151);
+    background-color: rgb(39, 201, 212);
 }
 
 /* ----------------3D printing chart graphic--------------- */
@@ -701,42 +754,163 @@ tr:nth-child(even){
     padding-top: 8px;
 }
 
-/*  .HTMLbackground:hover{
-    background-image: url('images/HTMLbackgroundlong.png');
-    opacity: 100%;
-    transition: 1s;
-    
-} */
-
-.HTMLcontent{
-    width: 100vw;
-    height: 150vh;
-    background-image: url(images/HTMLbackgroundlong.png);
-    background-repeat: no-repeat;
-    background-size: cover; 
+/*
+.webdevhtml{ 
+    Width: 100%;
+    height: 160vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: 0.5s;
+    overflow-x: hidden; 
 }
 
-.HTMLtitle{
-    color: #ffffff;
-    text-align: left;
-    padding-left: 44px;
-    padding-top: 68px;
+.webdevhtmltitle{
+    padding-top: 48px;
+    padding-left: 48px;
+    font-weight: bold;
 }
 
-.CSScontent{
-    width: 100vw;
-    height: 150vh;
-    background-image: url(images/CSSbackgroundlong.png);
-    background-repeat: no-repeat;
-    background-size: cover; 
+.webdevcss{
+    Width: 100%;
+    height: 350vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    overflow-x: hidden;
 }
 
-.CSStitle{
-    color: #ffffff;
-    text-align: left;
-    padding-left: 44px;
-    padding-top: 68px;
+.webdevcsstitle{
+    padding-top: 48px;
+    padding-left: 48px;
+    font-weight: bold;
 }
+*/
+
+/* -----------------HTML content section---------------- */
+
+.webdevhtmlintroimg{
+    width: 240px;
+    transform: translateX() translateY();   
+}
+
+.webdevhtmlintrotitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmlintrotext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmlimg1{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmltitle1{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmltext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmlimg2{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmltitle2{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmltext2{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmlimg3{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmltitle3{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmltext3{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmlimg4{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmltitle4{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmltext4{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+
+/* -----------------CSS content section---------------- */
+
+.webdevhtmlintroimg{
+    width: 240px;
+    transform: translateX() translateY();   
+}
+
+.webdevhtmlintrotitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmlintrotext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmlimg4{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.webdevhtmltitle4{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevhtmltext4{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
 
 /* ----------------final project section--------------- */
 
@@ -828,4 +1002,5 @@ tr:nth-child(even){
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
