@@ -754,11 +754,10 @@ tr:nth-child(even){
     padding-top: 8px;
 }
 
-/*
 .webdevhtml{ 
     Width: 100%;
-    height: 160vh;
-    padding-top: 79px;
+    height: 400vh;
+    padding-top: 39px;
     background-color: rgb(20, 20, 20);
     color: white;
     transition: 0.5s;
@@ -770,6 +769,8 @@ tr:nth-child(even){
     padding-left: 48px;
     font-weight: bold;
 }
+
+/*
 
 .webdevcss{
     Width: 100%;
@@ -790,8 +791,9 @@ tr:nth-child(even){
 /* -----------------HTML content section---------------- */
 
 .webdevhtmlintroimg{
-    width: 240px;
-    transform: translateX() translateY();   
+    width: 700px;
+    border-radius: 20px;
+    transform: translateX(200px) translateY(50);
 }
 
 .webdevhtmlintrotitle{
@@ -807,7 +809,8 @@ tr:nth-child(even){
 }
 
 .webdevhtmlimg1{
-    width: 240px;
+    width: 35%;
+    border-radius: 20px;
     transform: translateX() translateY(); 
 }
 
@@ -824,7 +827,8 @@ tr:nth-child(even){
 }
 
 .webdevhtmlimg2{
-    width: 240px;
+    width: 35%;
+    border-radius: 20px;
     transform: translateX() translateY(); 
 }
 
@@ -841,7 +845,8 @@ tr:nth-child(even){
 }
 
 .webdevhtmlimg3{
-    width: 240px;
+    width: 35%;
+    border-radius: 20px;
     transform: translateX() translateY(); 
 }
 
@@ -858,7 +863,8 @@ tr:nth-child(even){
 }
 
 .webdevhtmlimg4{
-    width: 240px;
+    width: 35%;
+    border-radius: 20px;
     transform: translateX() translateY(); 
 }
 
@@ -877,35 +883,37 @@ tr:nth-child(even){
 
 /* -----------------CSS content section---------------- */
 
-.webdevhtmlintroimg{
+.webdevcssintroimg{
     width: 240px;
+    border-radius: 20px;
     transform: translateX() translateY();   
 }
 
-.webdevhtmlintrotitle{
+.webdevcssintrotitle{
     font-weight: bold;
     transform: translateX() translateY(); 
     font-size: 36px;
 }
 
-.webdevhtmlintrotext{
+.webdevcssintrotext{
     font-weight: bold;
     text-align: center;
     transform: translateX() translateY(); 
 }
 
-.webdevhtmlimg4{
+.webdevcssimg4{
     width: 240px;
+    border-radius: 20px;
     transform: translateX() translateY(); 
 }
 
-.webdevhtmltitle4{
+.webdevcsstitle4{
     font-weight: bold;
     transform: translateX() translateY(); 
     font-size: 36px;
 }
 
-.webdevhtmltext4{
+.webdevcsstext4{
     font-weight: bold;
     text-align: center;
     transform: translateX() translateY(); 
