@@ -214,58 +214,220 @@ tr:nth-child(even){
 
 /* ----------------2D design section--------------- */
 
-/*
-.webdevhtmlintroimg{
+.twoddesigngimp{ 
+    Width: 100%;
+    height: 275vh;
+    padding-top: 39px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: 0.5s;
+    overflow-x: hidden; 
+}
+
+.twoddesigngimptitle{
+    padding-top: 48px;
+    padding-left: 48px;
+    font-weight: bold;
+}
+
+.twoddesigniksc{
+    Width: 100%;
+    height: 275vh;
+    padding-top: 35px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    overflow-x: hidden;
+}
+
+.twoddesigniksc{
+    padding-top: 48px;
+    padding-left: 48px;
+    font-weight: bold;
+}
+
+/* ----------------2D design section (GIMP)--------------- */
+
+.twoddesigngimpintroimg{
     width: 240px;
     transform: translateX() translateY();   
 }
 
-.webdevhtmlintrotitle{
+.twoddesigngimpintrotitle{
     font-weight: bold;
     transform: translateX() translateY(); 
     font-size: 36px;
 }
 
-.webdevhtmlintrotext{
+.twoddesigngimpintrotext{
     font-weight: bold;
     text-align: center;
     transform: translateX() translateY(); 
 }
 
-.webdevhtmlimg1{
+.twoddesigngimpimg1{
     width: 240px;
     transform: translateX() translateY(); 
 }
 
-.webdevhtmltitle1{
+.twoddesigngimptitle1{
     font-weight: bold;
     transform: translateX() translateY(); 
     font-size: 36px;
 }
 
-.webdevhtmltext1{
+.twoddesigngimptext1{
     font-weight: bold;
     text-align: center;
     transform: translateX() translateY(); 
 }
 
-.webdevhtmlimg2{
+.twoddesigngimpimg2{
     width: 240px;
     transform: translateX() translateY(); 
 }
 
-.webdevhtmltitle2{
+.twoddesigngimpimg22{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigngimptitle2{
     font-weight: bold;
     transform: translateX() translateY(); 
     font-size: 36px;
 }
 
-.webdevhtmltext2{
+.twoddesigngimptext2{
     font-weight: bold;
     text-align: center;
     transform: translateX() translateY(); 
 }
-*/
+
+.twoddesigngimpimg3{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigngimptitle3{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.twoddesigngimptext3{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigngimpimg4{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigngimptitle4{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.twoddesigngimptext4{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigngimpimg5{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigngimptitle5{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.twoddesigngimptext5{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+/* ----------------2D design section (Inkscape)--------------- */
+
+.twoddesignikscintroimg{
+    width: 240px;
+    transform: translateX() translateY();   
+}
+
+.twoddesignikscintrotitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.twoddesignikscintrotext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.twoddesignikscimg1{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.twoddesignikscimg11{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigniksctitle1{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.twoddesigniksctext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.twoddesignikscimg2{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigniksctitle2{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.twoddesigniksctext2{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.twoddesignikscimg3{
+    width: 240px;
+    transform: translateX() translateY(); 
+}
+
+.twoddesigniksctitle3{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.twoddesigniksctext3{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
 
 /* ----------------cad section--------------- */
 
@@ -756,7 +918,7 @@ tr:nth-child(even){
 
 .webdevhtml{ 
     Width: 100%;
-    height: 400vh;
+    height: 275vh;
     padding-top: 39px;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -770,12 +932,10 @@ tr:nth-child(even){
     font-weight: bold;
 }
 
-/*
-
 .webdevcss{
     Width: 100%;
-    height: 350vh;
-    padding-top: 79px;
+    height: 275vh;
+    padding-top: 35px;
     background-color: rgb(20, 20, 20);
     color: white;
     overflow-x: hidden;
@@ -786,7 +946,6 @@ tr:nth-child(even){
     padding-left: 48px;
     font-weight: bold;
 }
-*/
 
 /* -----------------HTML content section---------------- */
 
@@ -798,14 +957,16 @@ tr:nth-child(even){
 
 .webdevhtmlintrotitle{
     font-weight: bold;
-    transform: translateX() translateY(); 
+    transform: translateX(0px) translateY(24px); 
     font-size: 36px;
+    width: 300px;
 }
 
 .webdevhtmlintrotext{
     font-weight: bold;
     text-align: center;
-    transform: translateX() translateY(); 
+    padding-top: 20px;
+    transform: translateX() translateY(20px); 
 }
 
 .webdevhtmlimg1{
@@ -896,6 +1057,60 @@ tr:nth-child(even){
 }
 
 .webdevcssintrotext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevcssimg1{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY(); 
+}
+
+.webdevcsstitle1{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevcsstext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevcssimg2{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY(); 
+}
+
+.webdevcsstitle2{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevcsstext2{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.webdevcssimg3{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY(); 
+}
+
+.webdevcsstitle3{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px;
+}
+
+.webdevcsstext3{
     font-weight: bold;
     text-align: center;
     transform: translateX() translateY(); 
