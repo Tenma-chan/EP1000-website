@@ -246,7 +246,7 @@ tr:nth-child(even){
 }
 
 /* ----------------2D design section (GIMP)--------------- */
-
+/* <fodder barrier here because github didnt push my CSS changes over> */ 
 .twoddesigngimpintroimg{
     width: 240px;
     transform: translateX() translateY();   
