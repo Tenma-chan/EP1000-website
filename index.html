@@ -628,7 +628,157 @@
     <!--Final project-->
 
     <div id="finalprojectid" class="finalproject">
-        <p>ITS THE FINAL PROJECT</p>
+        <h1 class="finalprojecttitle">Final Project</h1>
+        <div class="finalprojectcontent">
+
+            <div class="finalprojectintro">
+                <img class="finalprojectintroimg" src="">
+                <h1 class="finalprojectintrotitle">Final Project Concept</h1>
+                <p class="finalprojectintrotext1">
+                    The concept for my final project will be a macro keyboard crossed with a controller
+                    style input device which aims to provide the user with additional functionality and
+                    control of their device while being able to look the part.
+                </p>
+
+                <p class="finalprojectintrotext2">
+                    The design of the product was heavily inspired by stream decks available commercially
+                    as I really like the compact yet theme accurate look and style. The use however, was 
+                    determined to be used as an extension to a regular keyboard, in order to make the 
+                    product more appealing and applicable to a wider audience
+                </p>
+            </div>
+            
+            <div class="finalprojectCAD">
+                <img class="finalprojectCADimg" src="images/FPFullCADimg.png">
+                <h1 class="finalprojectCADtitle">Final Project CAD</h1>
+                <p class="finalprojectCADtext1">
+                    The entire process began with CAD in Fusion360. The rough idea was designed to incorporate
+                    both laser cut and 3D printed elements. This proved to be quite a challenge as the design
+                    would be limited by the capabilities of both types of fabrication methods and hence, 
+                    the design was altered for a much smoother production process.     
+                </p>
+
+                <p class="finalprojectCADtext2">
+                    The design first began with the model of the housing that will be used to house all the
+                    electrical components inside the circuit. This part of the design will be making use of
+                    laser cutting in order to create smooth corners fast and precisely. 
+                </p>
+                
+                <p class="finalprojectCADtext3">
+                    The design was eventually decided to have walls made of 3mm sheets cut unto shape as this
+                    was a quick method to rapidly create walls with rounded edges and holes for the insertion
+                    of guiding screws and bolts.
+                </p>
+                
+                <p class="finalprojectCADtext4">
+                    Futhermore, the rather complicated faceplate for the device was lasercut, and hence the
+                    continuity of the design will be preferred.
+                </p>
+
+                <p class="finalprojectCADtext5">
+                    Next up the stand for the design would be 3D printed with the concept of a laptop cooler
+                    as the inspiration. I opted for a slight tilt to mimic laptop coolers, allowing the face
+                    of the device to face towards the user which would allow easier access/visibility for the
+                    user compared to lying flat on the table surface.    
+                </p>    
+            </div>
+
+            <div class="finalprojectElec">
+                <img class="finalprojectElecimg" src="images/promicro.jfif">
+                <h1 class="finalprojectElectitle">Electronics</h1>
+                <p class="finalprojectElectext1">
+                    The first component introducedwould be the 4x4 membrane keypad. Originally i had opted
+                    for a design with keyboard switches, but the connections and soldering proved to be 
+                    difficult due to how flimsy the connection were, so eventually, for simplicity the 
+                    4x4 membrane keypad was chosen.
+                </p>
+                
+                <p class="finalprojectElectext2">
+                    The number pad allows for full Numpad inputs, and a few additional functionality for 
+                    device audio. These include: Fast forwarding, Rewinding, Skipping, Previous, and Pause/play.
+                </p>
+
+                <p class="finalprojectElectext3">
+                    The next component would be the rotary encoder component. The rotary encoder will be used
+                    as a volume knob to control the volume of the device that the extension is plugged in to.
+                    Clockwise rotation would raise the volume, counterclockwise would lower the volume and 
+                    pressing down on the rotary encoder would mute the device.
+                </p>
+
+                <p class="finalprojectElectext4">
+                    The last component used is the joystick component. The joystick is capable of mimicing
+                    arrow keys and even allows for a combination of two directional inputs to allow for diagonal
+                    directions, at the same time. The joystick also has been mapped to press the 'ENTER' key when 
+                    pressed down.
+                </p>
+            </div>
+
+            <div class="finalprojectCode">
+                <img class="finalprojectCodeimg" src="images/FPArduinoimg.png">
+                <h1 class="finalprojectCodetitle">Arduino Code</h1>
+                <p class="finalprojectCodetext1">
+                    Arduino IDE is used to write the code for the project. The microcontroller of choice is the 
+                    Arduino Pro Micro. This is because of its compatability with the Keyboard.h and similar 
+                    library and similar libraries.
+                </p>
+                
+                <p class="finalprojectCodetext2">
+                    To be able to identify which keys are being pressed, a keypad.h library is used to create a
+                    matrix is which the keys are placed.
+                </p>
+
+                <p class="finalprojectCodetext3">
+                    Next up, the library HID-Project.h is used in replacement of the Keyboard.h library due to 
+                    much more populated library, giving me access to more functions to be mapped to the keys.    
+                </p>
+
+                <p class="finalprojectCodetext4">
+                    Lastly, the RGB bar at the bottom of the project makes use of the FastLED.h library. This
+                    library was chosen as after preliminary testing, i prefer it to the  Adafruit library due to
+                    the simplicity and its available patterns.    
+                </p>
+            </div>
+
+            <div class="finalprojectLaser">
+                <img class="finalprojectLaserimg" src="images/FPLasercutinsideimg.png">
+                <h1 class="finalprojectLasertitle">Laser Cutting</h1>
+                <p class="finalprojectLasertext1">
+                    The Body of the project was first designed in Fusion360 before a 2D sketch of all the final
+                    components were exported as a DXF. The DXF was then imported to coreldraw and sent to the UCP
+                    for laser cutting. The material of choice was 3mm black cast acrylic due to its sleek look.    
+                </p>
+            </div>
+            
+            <div class="finalproject3D">
+                <img class="finalproject3Dimg" src="images/FP3Dprintimg.png">
+                <h1 class="finalproject3Dtitle">3D printing</h1>
+                <p class="finalproject3Dtext1">
+                    To complement the setup, a 3D printed clip on style mount was designed in Fusion360 and exported
+                    as an STL to Cura for slicing before 3D printing.   
+                </p>
+            </div>
+
+            <div class="finalprojectTest">
+                <img class="finalprojectTestimg" src="images/FPtest.jfif">
+                <h1 class="finalprojectTesttitle">Assembly and Testing</h1>
+                <p class="finalprojectTesttext">
+                    When first assembled, the project showed a few issues, one being the misalignment of the joystick
+                    module. This was due to me accidentally pulling on the joystick's wires during the installation
+                    The next issue was that the LEDs showed that they were occasionally disconnecting. This is a result 
+                    of a bad solder joint from the wires to the Neopixel LEDs. This was resolved by desoldering and 
+                    resoldering a new connection to the Neopixels.   
+                </p>
+            </div>
+            
+            <div class="finalprojectDone">
+                <img class="finalprojectDoneimg" src="images/FPdone.jfif">
+                <h1 class="finalprojectDonetitle">Functions and Specifications</h1>
+                <p class="finalprojecttext1">
+                    With all the issues resolved, the final specifications and functions are as follows: Full Numberpad,
+                    Joystick for arrow keys, knob for volume and 360 LED bar.   
+                </p>
+            </div>
+        </div>
     </div>
 
     <!--More stuff-->

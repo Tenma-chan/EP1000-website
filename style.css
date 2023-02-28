@@ -1343,12 +1343,277 @@ tr:nth-child(even){
 
 .finalproject{
     Width: auto;
-    height: 110vh;
+    height: 350vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
 }
 
+.finalprojectintro{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectintroimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();  
+}
+
+.finalprojectintrotitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectintrotext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectintrotext2{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+
+
+.finalprojectCAD{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectCADimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();  
+}
+
+.finalprojectCADtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectCADtext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectCADtext21{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectCADtext3{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectCADtext4{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectCADtext5{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+
+.finalprojectElec{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectElecimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();  
+}
+
+.finalprojectElectitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectElectext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectElectext2{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectElectext3{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectElectext4{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+
+.finalprojectCode{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectCodeimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();  
+}
+
+.finalprojectCodetitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectCodetext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectCodetext2{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectCodetext3{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.finalprojectCodetext4{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+
+.finalprojectLaser{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectLaserimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();  
+}
+
+.finalprojectLasertitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectLasertext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+
+.finalproject3D{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalproject3Dimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();  
+}
+
+.finalproject3Dtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalproject3Dtext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+
+.finalprojectTest{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectTestimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();  
+}
+
+.finalprojectTesttitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectTesttext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+
+.finalprojectDone{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojectDoneimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();  
+}
+
+.finalprojectDonetitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.finalprojecttext1{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
 /* ----------------auxillary section--------------- */
 
 .morestuff{
