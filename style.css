@@ -1954,6 +1954,33 @@ tr:nth-child(even){
 }
 /* ----------------auxillary section--------------- */
 
+.Promotext{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 48px; 
+}
+
+.Posterlink{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transform: translateX() translateY(); 
+}
+
+.promoposter{
+    padding-top: 79px;
+    width: 540px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transform: translateX() translateY(); 
+}
+
+.Videolink{
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transform: translateX() translateY(); 
+}
+
 .morestuff{
     Width: auto;
     height: 110vh;
