@@ -216,7 +216,7 @@ tr:nth-child(even){
 
 .twoddesigngimp{ 
     Width: 100%;
-    height: 275vh;
+    height: 225vh;
     padding-top: 39px;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -232,7 +232,7 @@ tr:nth-child(even){
 
 .twoddesigniksc{
     Width: 100%;
-    height: 275vh;
+    height: 145vh;
     padding-top: 35px;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -667,8 +667,8 @@ tr:nth-child(even){
 
 
 .cadprojectc{
-    Width: auto;
-    height: 110vh;
+    Width: 100%;
+    height: 100vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -683,7 +683,7 @@ tr:nth-child(even){
 
 .cadprojectd{
     Width: auto;
-    height: 110vh;
+    height: 130vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -698,7 +698,7 @@ tr:nth-child(even){
 
 .cadprojecte{
     Width: auto;
-    height: 110vh;
+    height: 100vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -728,7 +728,7 @@ tr:nth-child(even){
 
 .cadprojectg{
     Width: auto;
-    height: 110vh;
+    height: 180vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -743,7 +743,7 @@ tr:nth-child(even){
 
 .cadprojecth{
     Width: auto;
-    height: 110vh;
+    height: 90vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -926,6 +926,240 @@ tr:nth-child(even){
     transform: translateX(160px) translateY(125px);
 } 
 
+/*----------------CAD PROJECT C---------------*/
+
+.Assignment3cadtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment3cadtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.CADassignment3cadimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+}
+
+
+.Assignment3modeltitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment3modeltext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY(); 
+}
+
+.CADassignment3modelimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+} 
+
+/*----------------CAD PROJECT D---------------*/
+
+.Assignment4cadtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment4cadtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment4cadimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+}
+
+
+.Assignment4modeltitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment4modeltext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment4modelimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+} 
+
+/*----------------CAD PROJECT E---------------*/
+
+.Assignment5cadtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment5cadtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment5cadimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+}
+
+
+.Assignment5modeltitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment5modeltext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment5modelimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+} 
+
+/*----------------CAD PROJECT F---------------*/
+
+.Assignment6cadtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment6cadtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment6cadimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+}
+
+
+.Assignment6modeltitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment6modeltext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment6modelimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+} 
+
+/*----------------CAD PROJECT G---------------*/
+
+.Assignment7cadtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment7cadtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment7cadimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+}
+
+
+.Assignment7modeltitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment7modeltext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment7modelimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+} 
+
+/*----------------CAD PROJECT H---------------*/
+
+.Assignment8cadtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment8cadtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment8cadimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+}
+
+
+.Assignment8modeltitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.Assignment8modeltext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.CADassignment8modelimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+} 
+
 
 /* ----------------3D printing section--------------- */
 
@@ -1026,15 +1260,119 @@ tr:nth-child(even){
     transform: translateX(345px) translateY(410px);
 }
 
-/* ----------------laser cutting section--------------- */
+/* Phone stand settings */
 
-.lasercut{
+.handphonestand{
     Width: auto;
-    height: 110vh;
+    height: 118vh;
     padding-top: 79px;
     background-color: rgb(20, 20, 20);
     color: white;
+    overflow-x: hidden; 
 }
+
+.threeDstand{
+    padding-top: 48px;
+    padding-left: 48px;
+    font-weight: bold;
+}
+
+/*----------------Phone Stand Section---------------*/
+
+.threeDstandtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.threeDstandcadtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.threeDstandcadimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+}
+
+
+.threeDstandmodeltitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.threeDstandmodeltext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.threeDstandmodelimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+} 
+
+/* ----------------laser cutting section--------------- */
+
+/* Accessory Box settings */
+
+.Accessorybox{
+    Width: auto;
+    height: 130vh;
+    padding-top: 79px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    overflow-x: hidden; 
+}
+
+.LCboxheader{
+    padding-top: 48px;
+    padding-left: 48px;
+    font-weight: bold;
+}
+
+/*----------------Accessory Box Section---------------*/
+
+.LCboxtitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.LCboxcadtext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.LCboxcadimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+}
+
+
+.LCboxmodeltitle{
+    font-weight: bold;
+    transform: translateX() translateY(); 
+    font-size: 36px; 
+}
+
+.LCboxmodeltext{
+    font-weight: bold;
+    text-align: center;
+    transform: translateX() translateY();
+}
+
+.LCboxmodelimg{
+    width: 240px;
+    border-radius: 20px;
+    transform: translateX() translateY();
+} 
 
 /* ----------------Web development section--------------- */
 
